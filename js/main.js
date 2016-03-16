@@ -1,14 +1,14 @@
 var intro = alert("Let's make a story together!");
 
-var colour = prompt("A colour (orange, indigo, etc.}");
+var colour = prompt("A colour (orange, indigo, etc.)");
 
-var creature = prompt("A creature (dragon, moth, etc.");
+var creature = prompt("A creature (dragon, moth, etc.)");
 
-var adjective = prompt("A creature (dragon, moth, etc.");
+var adjective = prompt("A creature (dragon, moth, etc.)");
 
-var verb = prompt("choose a past tense verb (ran, kissed etc");
+var verb = prompt("choose a past tense verb (ran, kissed etc.)");
 
-var story = prompt("Which story would you like? Enter the letter below: 2)snacking b)escaping c)winning");
+var story = prompt("Which story would you like? Enter the letter below: a)snacking b)escaping c)winning");
 
 var storyA = function () {
 
@@ -21,7 +21,7 @@ var storyB = function () {
   document.write("Ameilia " + verb + "through the " + adjective + " " + colour + "nebula escaping the space " + creature + ".");
 };
 
-Var storyC = function () {
+var storyC = function () {
 
   document.write("Jackson chose his" + adjective + ", " + colour + creature + "and " + verb + "it to the table knowing he won.");
 };

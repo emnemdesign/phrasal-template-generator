@@ -1,4 +1,4 @@
-var popup = alert("Let's make a story together!");
+var popup = alert("Let’s make a story together!");
 
 var colour = prompt('A colour (orange, indigo, etc.)');
 
